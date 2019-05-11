@@ -16,5 +16,7 @@ jobs:
             - ./node_modules
       - run: # run tests
           name: Run Test and Coverage
-          command: |
-            npm test
+          command: npm test
+      - run:
+          name: Run linter
+          command: npm run lint
