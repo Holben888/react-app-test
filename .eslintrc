@@ -12,7 +12,8 @@
     "max-len": ["error", 120] // lines can be 120 characters long before they should break
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "settings": {
     "import/resolver": {
